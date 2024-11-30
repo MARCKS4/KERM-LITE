@@ -12,14 +12,14 @@ module.exports = {
    AUTO_READ: toBool(process.env.AUTO_READ) || false,
    AUTO_STATUS_READ: toBool(process.env.AUTO_STATUS_READ) || true,
    DELETED_LOG: toBool(process.env.DELETED_LOG) || true,
-   STATUS_SAVER: toBool(process.env.STATUS_SAVER) || false,
+   STATUS_SAVER: toBool(process.env.STATUS_SAVER) || true,
    AUTO_REACT: toBool(process.env.AUTO_REACT) || false,
 
    // String Values
-   SESSION_ID: process.env.SESSION_ID || "", // Put your session
+   SESSION_ID: process.env.SESSION_ID || "KermLite~zse5qHS7"
    HANDLERS: process.env.HANDLER === "false" || process.env.HANDLER === "null" ? "^" : "[.]",
    BOT_INFO: process.env.BOT_INFO || "Kɢᴛᴇᴄʜ;KᴇʀᴍLɪᴛᴇ⚡️;https://telegra.ph/file/3ac47cbad32a86aa12251.jpg", // YourName;BotName;Image/VideoLink
-   SUDO: process.env.SUDO || "237656520674",
+   SUDO: process.env.SUDO || "+50932324157",
    PRESENCE: process.env.PRESENCE || "available", // "unavailable", "available", "composing", "recording", "paused"
    CAPTION: process.env.CAPTION || "© Kᴇʀᴍ ᴍᴅ",
    TIME_ZONE: process.env.TIME_ZONE || "Africa/Lagos",
@@ -32,7 +32,7 @@ module.exports = {
    GOODBYE_MSG: process.env.GOODBYE_MSG || "Hi @user It was Nice Seeing you",
    RMBG_KEY: process.env.RMBG_KEY || "",
    WORK_TYPE: process.env.WORK_TYPE || "private",
-   DELETED_LOG_CHAT: process.env.DELETED_LOG_CHAT || false,
+   DELETED_LOG_CHAT: process.env.DELETED_LOG_CHAT || true,
    REMOVEBG: process.env.REMOVEBG || "",
    HEROKU_APP_NAME: process.env.HEROKU_APP_NAME,
    HEROKU_API_KEY: process.env.HEROKU_API_KEY,
