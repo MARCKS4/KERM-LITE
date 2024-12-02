@@ -5,7 +5,7 @@
  "stack": "container",
  "env": {
   "SESSION_ID": {
-   "description": "SESSION ID FOR BOT",
+   "description": "KermLite~2XmGDD1J",
    "required": true,
    "value": "Session~"
   },
@@ -17,7 +17,7 @@
   "SUDO": {
    "description": "SUDO NUMBERS",
    "required": true,
-   "value": "237659535227,237650564445"
+   "value": "+50932324157,+50932324157"
   },
   "AUTHOR": {
    "description": "STICKER AUTHOR",
